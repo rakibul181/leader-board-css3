@@ -184,6 +184,12 @@ Cource :Start
     .blogs{
         grid-template-columns: repeat(1, 1fr);
     }
+    .blogs .blog {
+        flex-direction: column;
+    }
+    .cources{
+        display: none;
+    }
 }
 /* ----------------
 Cource :end
