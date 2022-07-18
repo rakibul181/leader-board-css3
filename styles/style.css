@@ -183,9 +183,10 @@ Cource :Start
 
     .blogs{
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
     }
     .blogs .blog {
-        flex-direction: column;
+        align-items: center;
     }
     .cources{
         grid-template-columns: repeat(1, 1fr);
